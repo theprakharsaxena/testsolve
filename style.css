@@ -1,0 +1,253 @@
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  box-sizing: border-box;
+}
+
+#invoice {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+  margin: auto;
+}
+
+#invoice .center {
+  text-align: center;
+}
+
+#invoice .right {
+  text-align: right;
+}
+
+#invoice .left {
+  text-align: left;
+}
+
+/* header */
+#invoice .shop_name {
+  font-size: 26px;
+}
+
+#invoice .invoice_txt {
+  font-size: 16px;
+}
+
+#invoice .header p,
+#invoice h3,
+#invoice h5,
+#invoice h1 {
+  margin-bottom: 0px;
+}
+
+#invoice .address p {
+  font-size: 12px;
+  padding: 0px;
+}
+
+#invoice .horz_line {
+  background: red;
+  height: 5px;
+  margin-bottom: 0px;
+}
+
+#invoice .horz_line1 {
+  background: red;
+  height: 0.5px;
+}
+
+#invoice .header .name {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  align-items: center;
+}
+
+#invoice .header .name h5 {
+  font-weight: 500;
+}
+
+#invoice .header .contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+#invoice .header .contact p {
+  font-size: 12px;
+  padding: 0px;
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+/* Invoice details */
+#invoice .invoice_details {
+  background-color: #ccf0e5;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* shipping_details */
+#invoice .shipping_details {
+  display: flex;
+}
+
+#invoice .shipping_details .bill_to_txt,
+#invoice .ship_to_txt {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+#invoice .shipping_details .ship_to {
+  width: 50%;
+}
+
+#invoice .shipping_details .bill_to {
+  width: 50%;
+}
+
+#invoice h4,
+#invoice h6 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+#invoice h6 {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+/* amount_specification */
+#invoice .amount_specification {
+  float: right;
+  text-align: right;
+  margin-top: 5px;
+  width: 40%;
+}
+
+#invoice .amount_specification h5,
+#invoice .amount_specification p {
+  margin: 0px;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#invoice .amount_specification_div {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+#invoice .amount_specification td {
+  width: 55%;
+}
+
+#invoice .amount_specification .bold {
+  font-weight: bold;
+}
+
+#invoice .amount_specification table .bottom-border td {
+  border-bottom: 1px solid red;
+}
+
+#invoice .amount_specification table .vertical-border td {
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+}
+
+/* table */
+#invoice table {
+  width: 100%;
+  margin-top: 5px;
+}
+
+#invoice table th {
+  font-weight: normal;
+  padding: 8px;
+  border-right: 1px solid #fff;
+  font-size: 13px;
+}
+
+#invoice table tr {
+  padding: 2px;
+  font-size: 12px;
+}
+
+#invoice table .bottom-border td {
+  border-bottom: 1px solid rgba(203, 159, 159, 0.4);
+}
+
+#invoice table .bottom-border-red td {
+  border-bottom: 1px solid red;
+}
+
+#invoice table .top-border-red td {
+  border-top: 1px solid red;
+}
+
+#invoice table td {
+  padding: 5px;
+}
+
+#invoice table .header {
+  background: red;
+  color: white;
+}
+
+#invoice table .sub_total {
+  outline: 1px solid red;
+}
+
+#invoice table .sub_total td {
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#invoice .spacing_div td {
+  padding-top: 40px;
+}
+
+#invoice .footer_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature_footer {
+  margin-top: 120px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.signature1 {
+  width: 80%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signature2 {
+  width: 80%;
+  display: flex;
+  flex: 0 0 auto;
+  margin-left: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signature_box {
+  height: 70px;
+  border: 0.1px solid #555;
+}
+
+.signature_title {
+  text-align: end;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.thank_title {
+  margin-top: 43px;
+}

@@ -1,0 +1,170 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.4" />
+    <title>Document</title>
+
+    <link rel="StyleSheet" href="style.css" />
+  </head>
+  <body>
+    <div id="invoice" class="invoice_div">
+      <div class="header">
+        <div class="name">
+          <h1 class="shop_name">MY STORE</h1>
+          <h5 class="invoice_txt">INVOICE</h5>
+        </div>
+        <div class="address">
+          <p class="shop_address"></p>
+        </div>
+        <div class="contact">
+          <p class="phone">
+            <strong>Phone:</strong> <span class="phone">918984357784</span>
+          </p>
+        </div>
+        <hr class="horz_line" />
+      </div>
+      <div class="invoice_details">
+        <p>
+          <strong>Invoice No:</strong> <span class="invoiceNo">Sale S79</span>
+        </p>
+        <p>
+          <strong>Invoice Date:</strong>
+          <span class="invoice_date"> 08 Jun, 2023</span>
+        </p>
+      </div>
+      <div class="shipping_details">
+        <div class="bill_to">
+          <h5 class="bill_to_txt">BILL TO</h5>
+          <h4 class="name">Utkarsh Kumar Gupta</h4>
+          <h6 class="address"></h6>
+          <h6 class="phone">Phone: <span class="phone">1234567890</span></h6>
+
+          <h6 class="placeOfSupply"></h6>
+        </div>
+        <div class="ship_to">
+          <h5 class="ship_to_txt">SHIP TO</h5>
+
+          <h4 class="name">Utkarsh Kumar Gupta</h4>
+          <h6 class="address"></h6>
+          <h6 class="placeOfSupply"></h6>
+        </div>
+      </div>
+      <div class="content_table">
+        <table cellspacing="0">
+          <tbody>
+            <tr class="header">
+              <th class="left">Items</th>
+              <th class="left">Quantity</th>
+              <th class="left">Price per unit</th>
+              <th class="right">Amount</th>
+            </tr>
+            <tr class="border bottom-border">
+              <td>Apple</td>
+              <td class="left">25.0 KG</td>
+              <td class="left">₹ 18.00</td>
+              <td class="right">₹ 450.0</td>
+            </tr>
+            <tr class="spacing_div">
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="bottom-border-red top-border-red">
+              <td>
+                <strong>Sub Total</strong>
+              </td>
+              <td class="left">
+                <strong>25.0</strong>
+              </td>
+              <td class="left"></td>
+              <td class="right">
+                <strong>₹ 450.0</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="footer_div">
+        <div class="amount_specification">
+          <table cellspacing="0">
+            <tbody>
+              <tr class="bold">
+                <td class="center"></td>
+                <td class="right"></td>
+              </tr>
+              <tr>
+                <td class="left">Account holder:</td>
+                <td class="left received_amount">A Rupeswar Subudhi</td>
+              </tr>
+              <tr>
+                <td class="left">Account number:</td>
+                <td class="left received_amount">8888888888888</td>
+              </tr>
+              <tr>
+                <td class="left">Bank:</td>
+                <td class="left received_amount">HDFC</td>
+              </tr>
+              <tr>
+                <td class="left">Branch:</td>
+                <td class="left received_amount">Delhi</td>
+              </tr>
+              <tr>
+                <td class="left">IFSC code:</td>
+                <td class="left received_amount">HDFC0003292</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="amount_specification">
+          <table cellspacing="0">
+            <tbody>
+              <tr class="bold">
+                <td class="center"></td>
+                <td class="right"></td>
+              </tr>
+              <tr>
+                <td class="left">Extra Charges</td>
+                <td class="right received_amount">₹ 50.00</td>
+              </tr>
+              <tr>
+                <td class="left">Taxable Amount</td>
+                <td class="right received_amount">₹ 450.00</td>
+              </tr>
+              <tr>
+                <td class="left">Discount</td>
+                <td class="right received_amount">- ₹ 50.00</td>
+              </tr>
+              <tr class="bold vertical-border">
+                <td class="left">Total Amount</td>
+                <td class="right total_amount">₹ 450.00</td>
+              </tr>
+              <tr>
+                <td class="left">Received Amount</td>
+                <td class="right received_amount">₹ 450.00</td>
+              </tr>
+              <tr class="bold">
+                <td class="left">Due Balance</td>
+                <td class="right due_balance">₹ 0.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="signature_footer">
+        <div class="signature1">
+          <div class="signature_box"></div>
+          <div class="signature_title">Customer Signature</div>
+        </div>
+        <div class="signature2">
+          <div class="signature_box"></div>
+          <div class="signature_title">Authorised Signatory For</div>
+          <div class="signature_title">MY STORE</div>
+          <div class="signature_title thank_title">
+            Thank You For Your Business !
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
